@@ -1,0 +1,29 @@
+#nav{
+    background-color: #FECA0F;
+    font-family: 'Lato';
+    color: #000000;
+    font-weight: 700;
+    display: flex;
+}
+
+#left-s{
+    display: flex;
+    align-items: center;
+    margin-top: 8px;
+    font-style: italic;
+    font-size: 20px;
+}
+
+#right-s{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 400px;
+    font-size: 20px;
+}
+
+#greetings{
+    text-align: center;
+    margin-top: 40px;
+    width: 400px;
+}
