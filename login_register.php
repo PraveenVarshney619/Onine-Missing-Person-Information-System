@@ -25,7 +25,7 @@ if(isset($_POST['login']))
                 echo"
                 <script>
                 alert('Incorrect Password');
-                window.location.href='login.php';
+                window.location.href='login.html';
                 </script>
                 ";
             }
@@ -35,7 +35,7 @@ if(isset($_POST['login']))
             echo"
             <script>
             alert('Email or Username not Registered');
-            window.location.href='login.php';
+            window.location.href='login.html';
             </script>
             ";
         }
@@ -45,7 +45,7 @@ if(isset($_POST['login']))
         echo"
         <script>
         alert('Cannot Run Query');
-        window.location.href='index.php';
+        window.location.href='index.html';
         </script>
         ";  
     }
@@ -69,7 +69,7 @@ if(isset($_POST['register']))
                 echo"
                 <script>
                 alert('$result_fetch[username] - Username already taken');
-                window.location.href='signup.php';
+                window.location.href='signup.html';
                 </script>
                 ";
             }
@@ -79,7 +79,7 @@ if(isset($_POST['register']))
                 echo"
                 <script>
                 alert('$result_fetch[email] - E-mail already taken');
-                window.location.href='signup.php';
+                window.location.href='signup.html';
                 </script>
                 ";
             }
@@ -94,7 +94,7 @@ if(isset($_POST['register']))
                 echo"
                 <script>
                 alert('Registration Successful');
-                window.location.href='index.php';
+                window.location.href='index.html';
                 </script>
                 "; 
             }
@@ -104,7 +104,7 @@ if(isset($_POST['register']))
                 echo"
                 <script>
                 alert('Cannot Run Query');
-                window.location.href='signup.php';
+                window.location.href='signup.html';
                 </script>
                 "; 
             }
