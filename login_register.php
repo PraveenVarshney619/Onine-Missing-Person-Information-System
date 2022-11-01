@@ -115,7 +115,7 @@ if(isset($_POST['register']))
       echo"
       <script>
       alert('Cannot Run Query');
-      window.location.href='index.php';
+      window.location.href='index.html';
       </script>
       "; 
     }
